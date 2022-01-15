@@ -16,6 +16,7 @@ body{
     Navigation bar 
 ----------------*/
 #nav-name{
+    text-align: center;
     background-color: #8d99ae;
     padding: 10px;
     margin-top: 0;
@@ -71,10 +72,6 @@ body{
 .half-width{
     width: 50%;
 }
-
-/*------------
-    Animation 
--------------*/
 .half-width img{
     width: 70%;
     margin-right: 50px;
@@ -263,4 +260,139 @@ footer{
     word-spacing: 30px;
     text-decoration: none;
     color: #e9e9f3 ;
+}
+
+
+/*-----------------
+    media query
+-------------------*/
+/* mobile devices */
+
+@media only screen and (max-width: 688px){
+    #nav-name{
+        text-align: center;
+        width: 100%;
+    }
+    .container{ 
+        padding: 10px;
+        width: 100%
+        
+    }
+    .half-width{
+        width: 100%;
+    }
+    #section-1{
+        display: block;
+    }
+    .main-tittle{
+        text-align: center;
+        font-size: 55px;
+        margin-bottom: 13px;
+        margin-top: 10px;
+    }
+    .main-tittle-info{
+        text-align: center;
+        color: #8789a8;
+        margin-bottom: 33px;
+        font-size: 16px;
+    }
+    .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.half-width img{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+}
+.more-products{
+    text-align: center;
+    color: #fa495d;
+}
+.top-player-row{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    margin: 10%;
+}
+.video{
+    width: 100%;
+    height: 100%
+}
+}
+
+
+/* Tablet device */
+@media only screen and (min-width: 689px)and (max-width: 992px) {
+    
+  #nav-name{
+        text-align: center;
+        width: 100%;
+    }
+    .container{ 
+        padding: 10px;
+        width: 100%
+        
+    }
+    .half-width{
+        width: 100%;
+    }
+    #section-1{
+        display: block;
+    }
+    .main-tittle{
+        text-align: center;
+        font-size: 55px;
+        margin-bottom: 13px;
+        margin-top: 10px;
+    }
+    .main-tittle-info{
+        text-align: center;
+        color: #8789a8;
+        margin-bottom: 33px;
+        font-size: 16px;
+    }
+    .button{
+        display: inline;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+.half-width img{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    margin-top: 20px;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+}
+.more-products{
+    text-align: center;
+    color: #fa495d;
+}
+.top-player-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    column-gap: 30px;
+    margin: 10%;
+}
+.video{
+    width: auto;
+    height: auto;
+}
+
+
 }
