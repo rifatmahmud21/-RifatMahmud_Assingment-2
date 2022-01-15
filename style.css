@@ -1,0 +1,126 @@
+/*----------------
+    font-face
+----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/*--------------
+    Common style
+----------------*/
+body{
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    color: #2B2D42;
+}
+
+/*----------------
+    Navigation bar 
+----------------*/
+#nav-name{
+    background-color: #8D99AE;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-size: 100%;
+}
+
+/*----------------
+    section 1
+-----------------*/
+.container{
+    display: block;
+    background-color: #EDF2F4 ;
+    border-radius: 10px;
+    padding: 50px;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#section-1{
+    display: flex;
+    align-items: center;
+}
+.main-tittle{
+    font-size: 65px;
+    margin-bottom: 33px;
+    margin-top: 33px;
+}
+.main-tittle-info{
+    color: #8789a8;
+    margin-bottom: 33px;
+}
+
+.button{
+    display: inline;
+    background-color: #2B2D42 ;
+    color: #EDF2F4;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 70%;
+    margin-right: 50px;
+margin-left: 150px;
+}
+
+hr{
+    border: 1px solid #c5c6da ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*----------------
+    section 2
+-----------------*/
+.tittle-2{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+
+/*----------------
+    products
+-----------------*/
+.box{
+    background-color: rgb(247, 247, 247);
+    width: 300px;
+    padding: 15px;
+    box-shadow: 5px 5px 30px rgb(219, 219, 219) ;
+    border-radius: 5px;
+
+}
+.product-image{
+    width: 300px;
+}
+.price{
+    color: #EF233C;
+}
+.fas{
+    color: gold;
+    font-size: 11px;
+}
+span{
+    color: rgb(202, 202, 202);
+    margin-left: 195px;
+}
+.product-details{
+    color: gray;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    padding-left: 50px ;
+}
+
+
+
