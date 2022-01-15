@@ -28,9 +28,9 @@ body{
 -----------------*/
 .container{
     display: block;
-    background-color: #EDF2F4 ;
+    background-color: #f6f6f7 ;
     border-radius: 10px;
-    padding: 50px 50px 11px;
+    padding: 50px 50px 30px;
     width: 1200px;
     margin-right: auto;
     margin-left: auto;
@@ -68,7 +68,7 @@ body{
 .half-width img{
     width: 70%;
     margin-right: 50px;
-margin-left: 150px;
+    margin-left: 150px;
 }
 
 hr{
@@ -95,7 +95,7 @@ hr{
     width: 300px;
     padding: 15px;
     box-shadow: 5px 5px 30px rgb(219, 219, 219) ;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 .product-image{
@@ -150,6 +150,83 @@ span{
     color: #fa495d ;
 }
 
+/*----------------
+    extra
+------------------*/
+.section-3-tittle{
+    font-size: 30px;
+    color: #2B2D42;
+    text-align: center;
+    margin-top: 80px;
+}
+.buyers{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 30px rgb(219, 219, 219) ;
+}
+.buyers img{
+    width: 200px;
+    height: 200px;
+}
+.buyers h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 30px;
+}
+.buyers p{
+    margin: 5px;
+}
+.buyers h4{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #c5c6da;
+}
+
+.top-player-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 10px;
+}
+.buyers {
+    transition: transform .2s;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+.buyers:hover {
+    transform: scale(1.1);
+}
 
 
+/*----------------
+    footer
+-----------------*/
 
+footer{
+    background-color: rgb(19, 15, 24);
+    padding: 60px;
+    color: #e9e9f3 ;
+    margin-top: 30px;
+}
+.upper-footer-text{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.lower-footer-text{
+    text-align: center;
+}
+.social-media{
+    text-align: center;
+    font-size: 40px;
+}
+.social-media i{
+    word-spacing: 30px;
+}
