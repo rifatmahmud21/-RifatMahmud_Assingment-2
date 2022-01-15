@@ -54,10 +54,9 @@ body{
 }
 
 .button{
-    display: inline;
     background-color: #e95f5f ;
     color: #EDF2F4;
-    padding: 8px 30px;
+    padding: 8px 20px;
     border-radius: 20px;
     text-decoration: none;
 }
@@ -297,9 +296,11 @@ footer{
         font-size: 16px;
     }
     .button{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        display: inline;
+        position: absolute;
+        left: 177px;
+        /* justify-content: center;
+        align-items: center; */
     }
 .half-width img{
     width: 70%;
@@ -362,9 +363,8 @@ footer{
     }
     .button{
         display: inline;
-        text-align: center;
-        margin-left: auto;
-        margin-right: auto;
+        position: static;
+        left: 430px;
     }
 .half-width img{
     width: 70%;
